@@ -1,0 +1,119 @@
+
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+}
+
+.hero {
+    height: 350px;
+    background-image: url("images/mosjoen.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #2D3E3C;
+    
+    font-family: "Roboto", sans-serif;
+    font-size: 32px;
+
+}
+
+.activities {
+    display: flex;
+    background-color: #EDF6FA;
+}
+
+.activity {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    margin: 60px auto 60px auto;
+    color: #2D3E3C;
+    text-align: start;
+    
+    font-family: "Roboto", sans-serif;
+}
+
+.activity-img {
+    width: 150px;
+    border-radius: 50%;
+    border: 5px solid #576F5C;
+    
+}
+
+.text-sect {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 0 15px;
+}
+
+.text-sect > h2 {
+    margin-top: 30px;
+    margin-bottom: 8px; 
+}
+
+.text-sect > p {
+    margin-top: 10px;
+}
+
+.guide {
+    width: 500px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    background-color: #EDF6FA;
+    color: #353C15;
+    border: 5px solid #A71810;
+    
+    font-family: "Roboto", sans-serif;
+}
+
+.guide-section {
+    background-color: #312410;
+    padding: 50px;
+}
+
+.guide-info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.guide-img {
+    width: 200px;
+}
+
+.guide-info > h3 {
+    font-size: 25px;
+    
+}
+
+.guide-info > p {
+    margin-top: 1px;
+    margin-bottom: 5;
+    font-size: 16px;
+}
+
+.guide-info > h4 {
+    margin-top: 5px;
+    font-size: 18px;
+}
